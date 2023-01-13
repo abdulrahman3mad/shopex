@@ -13,7 +13,6 @@ import {
 	Shop,
 	Dashboard,
 	Cart,
-	AddBlog
 } from "pages";
 
 //sections
@@ -49,7 +48,6 @@ function App() {
 				<Route path="/dashboard" element={<Dashboard />}></Route>
 				<Route path="/cart" element={<Cart />}></Route>
 				<Route path="/contact" element={<Contact />}></Route>
-				<Route path="/blog/add" element={<AddBlog />}></Route>
 			</Routes>
 			<FooterSE />
 		</div>
